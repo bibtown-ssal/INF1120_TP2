@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TP2Utils
+comment0.text=\n\ Cette\ classe\ contient\ une\ methode\ utile\ pour\ la\ realisation\ du\ TP2\ \n\ (INF1120\ H18).\n\ \n\ @author\ melanie\ lord\n\ @version\ 26/02/2018\n
+comment1.params=
+comment1.target=java.lang.String\ obtenirJeu()
+comment1.text=\n\ Permet\ d'obtenir\ aleatoirement,\ sous\ forme\ d'une\ chaine\ de\ caracteres,\ un\ \ \n\ jeu\ de\ mot\ mystere\ defini\ dans\ le\ fichier\ PATH_FIC_JEUX.\n\ \n\ @return\ un\ jeu\ de\ mot\ mystere.\n
+comment2.params=
+comment2.target=void\ initTabJeux()
+comment2.text=\n\ Lit\ tous\ les\ jeux\ contenus\ dans\ le\ fichier\ PATH_FIC_JEU\ et\ initialise\ \n\ le\ tableau\ tabJeux.\n
+comment3.params=min\ max
+comment3.target=int\ tirerUnNombreEntreMinEtMax(int,\ int)
+comment3.text=\n\ Genere\ un\ nombre\ aleatoire\ entre\ min\ et\ max.\n\ @param\ min\ la\ borne\ minimale\ (incluse)\ pour\ la\ generation\ du\ nombre\n\ @param\ max\ la\ borne\ maximale\ (incluse)\ pour\ la\ generation\ du\ nombre\n\ @return\ un\ nombre\ aleatoire\ entre\ min\ et\ max\n
+numComments=4

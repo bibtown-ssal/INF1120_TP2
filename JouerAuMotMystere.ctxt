@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=JouerAuMotMystere
+comment0.text=\n\ JouerAuMotMystere\ est\ une\ classe\ qui\ permet\ a\ un\ utilisateur\ de\ jouer\ a\ un\n\ ou\ plusieurs\ mot\ mystere\ dans\ le\ terminal.\n\n\ @author\ Charles\ Therien\n\ Code\ Permanent\ THEC03029208\n\ Courriel\ \:\ therien.charles@courrier.uqam.ca\n\ Cours\ \:\ INF1120-30\n\ @version\ 22\ mars\ 2018\n
+comment1.params=jeu
+comment1.target=int\ tailleJeu(java.lang.String)
+comment1.text=\n\ La\ classe\ tailleJeu\ retourne\ le\ nombre\ de\ ligne\ dans\ le\ tableau\ du\ mot\ mystere\n\ (puisque\ les\ tableaux\ sont\ carres,\ c'est\ egalement\ le\ nombre\ de\ colonne)\n\ \n\ @param\ \ jeu\ \ le\ String\ composant\ le\ tableau\ de\ jeu\n\ @return\ \ \ \ \ \ le\ nombre\ de\ ligne\ composant\ ce\ tableau\n
+comment2.params=jeu
+comment2.target=java.lang.String\ obtenirTableau(java.lang.String)
+comment2.text=\ La\ classe\ obtenirTableau\ retourne\ le\ tableau\ a\ afficher\ a\ partir\ \n\ d'un\ String\ contenant\ l'ensemble\ du\ jeu\n\ \n\ @param\ \ jeu\ \ le\ String\ composant\ l'ensemble\ du\ jeu\n\ @return\ \ \ \ \ \ le\ tableau\ de\ jeu\n
+comment3.params=jeu
+comment3.target=java.lang.String\ obtenirReponses(java.lang.String)
+comment3.text=\ la\ classe\ obtenirReponses\ extrait\ de\ l'ensemble\ du\ jeu\ la\ liste\ de\ \n\ reponses\ valides\ que\ l'utilisateur\ doit\ donner.\n\ \n\ @param\ \ jeu\ \ le\ String\ composant\ l'ensemble\ du\ jeu\n\ @return\ \ \ \ \ \ la\ lise\ des\ reponses\ attendue\n
+comment4.params=tableau\ taille
+comment4.target=void\ afficherTableauMotMystere(java.lang.String,\ int)
+comment4.text=\ La\ classe\ afficherTableauMotMystere\ fait\ l'affichage\ d'un\ tableau\ MotMystere\n\ \ selon\ le\ tableau\ extrait\ de\ TP2Utils\ et\ la\ taille\ du\ tableau\n\ \n\ @param\ \ tableau\ \ tableau\ extrait\ du\ jeu\ retourne\ par\ TP2Utils\n\ @param\ \ taille\ \ \ la\ taille\ du\ tableau\ de\ jeu\n
+comment5.params=jeu
+comment5.target=java.lang.String\ corrigerFormatTableau(java.lang.String)
+comment5.text=Cette\ classe\ s'assure\ que\ le\ tableau\ de\ jeu\ retourne\ par\ TP2Utils\ commence\n\ par\ un\ '\\n'.\n\ \n\ @param\ \ jeu\ \ Le\ String\ retournee\ par\ TP2Utils\n\ @return\ \ \ \ \ \ Le\ String\ incluant\ un\ '\\n'\ comme\ premier\ charactere\n
+comment6.params=listeRep
+comment6.target=java.lang.String\ obtenirListeMot(java.lang.String)
+comment6.text=La\ classe\ obtenirListeMot\ permet\ d'extraire\ la\ liste\ de\ mot\ de\ la\ liste\ de\n\ reponse\ attendu\ extraite\ du\ jeu\ obtenu\ par\ TP2Utils\n\ @param\ listeRep\n\ @return\ listeMot\n
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

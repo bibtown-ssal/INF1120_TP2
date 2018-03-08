@@ -1,0 +1,24 @@
+Get.Jeu
+
+Afficher.Jeu
+    Afficher.tableau
+        Get.tableau
+    Afficher.liste.mot
+        Get.liste.mot
+            Get.liste.reponse
+
+Resoudre.jeu
+    Get.Guess
+        verifier.formattage
+            afficher.erreur
+        verifier.existance
+        Get.mot
+            verifier.liste
+                afficher.erreur
+            changer.tableau
+    Get.answer
+        verifier.answer
+            message.reussite
+            message.erreur
+    Get.message.fin
+        Get.message.continuer
